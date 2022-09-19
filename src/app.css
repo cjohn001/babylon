@@ -1,6 +1,47 @@
 @import '@nativescript/theme/css/core.css';
 @import '@nativescript/theme/css/default.css';
 
+frame {
+	background-color: rgba(0, 0, 0, 0);
+}
+Page {
+	background-color: transparent;
+}
+
+ActionBar {
+  color: white;
+	background-color: #405161;
+}
+
+
 Button.-primary {
   font-size: 18;
+}
+
+.ns-root-bg-logged-in {
+	background-image: url('res://background_main');
+	background-size: cover;
+}
+
+.page-background {
+	background-color: rgba(251, 250, 246, 0.87);
+}
+.header-bg {
+	background-color: white;
+  border-top-width: 1;
+  border-bottom-width: 1;
+	border-color: rgb(200, 200, 200);
+}
+
+.h3 {
+	font-size: 17px;
+	font-family: '72', '72-Regular';
+	color: #377576;
+}
+
+.text-field {
+	font-size: 15px;
+	font-family: '72', '72-Regular';
+  color:#414141; 
+  background-color: white;
 }

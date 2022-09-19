@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "clean": "npx rimraf hooks node_modules package-lock.json platforms"
+  },
   "name": "babylon",
   "main": "./src/main.ts",
   "version": "1.0.0",
@@ -13,17 +16,28 @@
     "@angular/platform-browser-dynamic": "~14.2.0",
     "@angular/router": "~14.2.0",
     "@nativescript/angular": "~14.2.0",
+    "@nativescript/canvas": "^1.0.0",
+    "@nativescript/canvas-media": "^1.0.0",
+    "@nativescript/canvas-babylon": "^1.0.0",
+    "@nativescript/canvas-polyfill": "^1.0.0",
     "@nativescript/core": "~8.3.0",
     "@nativescript/theme": "~3.0.2",
+    "babylonjs": "^4.1.0",
+    "babylonjs-materials": "^4.1.0",
+    "babylonjs-loaders": "^4.1.0",
+    "three": "^0.144.0",
     "rxjs": "~7.5.0",
     "zone.js": "~0.11.5"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~14.2.0",
     "@angular/compiler-cli": "~14.2.0",
+    "@nativescript/android": "8.3.1",
+    "@nativescript/ios": "8.3.3",
     "@nativescript/types": "~8.3.0",
     "@nativescript/webpack": "~5.0.6",
     "@ngtools/webpack": "~14.2.0",
+    "@types/three": "^0.144.0",
     "typescript": "~4.7.0"
   }
 }
